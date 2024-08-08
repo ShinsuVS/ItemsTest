@@ -1,0 +1,5 @@
+name: Items
+version: '1.0-BETA'
+main: org.agera.items.Items
+api-version: '1.8.9'
+description: Created by Shinsu
