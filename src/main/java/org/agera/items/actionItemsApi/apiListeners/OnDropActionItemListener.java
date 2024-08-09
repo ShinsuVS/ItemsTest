@@ -1,7 +1,7 @@
-package org.agera.items.ActionItemsApi.ApiListeners;
+package org.agera.items.actionItemsApi.apiListeners;
 
-import org.agera.items.ActionItemsApi.Sql.SqlConnector;
-import org.agera.items.ActionItemsApi.Sql.StatsTableEntity;
+import org.agera.items.actionItemsApi.sql.SqlConnector;
+import org.agera.items.actionItemsApi.sql.StatsTableEntity;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

@@ -1,6 +1,6 @@
-package org.agera.items.ActionItemsApi.Sql;
+package org.agera.items.actionItemsApi.sql;
 
-import org.agera.items.Utils.CodeUtils;
+import org.agera.items.utils.CodeUtils;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import java.util.List;
 
 public class SqlConnector {
 
-    private Statement statement;
-    private Connection connection;
+    private final Statement statement;
+    private final Connection connection;
 
     public SqlConnector() {
         {

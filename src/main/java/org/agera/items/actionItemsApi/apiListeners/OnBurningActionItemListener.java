@@ -1,14 +1,15 @@
-package org.agera.items.ActionItemsApi.ApiListeners;
+package org.agera.items.actionItemsApi.apiListeners;
 
-import org.agera.items.ActionItemsApi.Sql.SqlConnector;
-import org.agera.items.ActionItemsApi.Sql.StatsTableEntity;
 import org.agera.items.Items;
+import org.agera.items.actionItemsApi.sql.SqlConnector;
+import org.agera.items.actionItemsApi.sql.StatsTableEntity;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Item;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.scheduler.BukkitRunnable;
+
 import java.util.ArrayList;
 
 public class OnBurningActionItemListener implements Listener {

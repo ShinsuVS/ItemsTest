@@ -1,12 +1,12 @@
-package org.agera.items.ActionItemsApi.Sql;
+package org.agera.items.actionItemsApi.sql;
 
 public class StatsTableEntity {
-    private String PlayerUUID;
-    private int droppedActionItem;
-    private int craftedActionItem;
-    private int collectedActionItem;
-    private int burningActionItem;
-    private String playerDisplayName;
+    private final String PlayerUUID;
+    private final int droppedActionItem;
+    private final int craftedActionItem;
+    private final int collectedActionItem;
+    private final int burningActionItem;
+    private final String playerDisplayName;
 
     public StatsTableEntity(String playerDisplayName, String PlayerUUID, int droppedActionItem, int craftedActionItem, int collectedActionItem, int burningActionItem) {
 

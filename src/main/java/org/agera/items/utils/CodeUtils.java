@@ -1,4 +1,4 @@
-package org.agera.items.Utils;
+package org.agera.items.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.ConsoleCommandSender;

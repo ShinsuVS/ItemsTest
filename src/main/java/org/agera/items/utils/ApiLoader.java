@@ -1,10 +1,10 @@
-package org.agera.items.Utils;
+package org.agera.items.utils;
 
-import org.agera.items.ActionItemsApi.ApiListeners.*;
-import org.agera.items.ActionItemsApi.Recipe.BlindingStaffRecipe;
-import org.agera.items.ActionItemsApi.Recipe.ExplousinTNTRecipe;
-import org.agera.items.ActionItemsApi.Recipe.GrimoireOfFireRecipe;
-import org.agera.items.ActionItemsApi.Sql.SqlConnector;
+import org.agera.items.actionItemsApi.apiListeners.*;
+import org.agera.items.actionItemsApi.recipe.BlindingStaffRecipe;
+import org.agera.items.actionItemsApi.recipe.ExplousinTNTRecipe;
+import org.agera.items.actionItemsApi.recipe.GrimoireOfFireRecipe;
+import org.agera.items.actionItemsApi.sql.SqlConnector;
 import org.agera.items.Items;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;

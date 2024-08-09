@@ -1,4 +1,4 @@
-package org.agera.items.ActionItemsApi.ApiListeners;
+package org.agera.items.actionItemsApi.apiListeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.LivingEntity;
@@ -8,7 +8,7 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import static org.agera.items.Utils.CodeUtils.logToConsole;
+import static org.agera.items.utils.CodeUtils.logToConsole;
 
 public class OnPlayerInteractEvent implements Listener {
     @EventHandler

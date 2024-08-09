@@ -1,4 +1,4 @@
-package org.agera.items.ActionItemsApi.Recipe;
+package org.agera.items.actionItemsApi.recipe;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

@@ -1,4 +1,4 @@
-package org.agera.items.ActionItemsApi.ApiListeners;
+package org.agera.items.actionItemsApi.apiListeners;
 
 
 import org.agera.items.Items;
